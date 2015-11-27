@@ -24,7 +24,7 @@ namespace spec
 		{
 			int a = -1236, b = -3612;
 			swap(&a, &b);
-			Assert::IsTrue(a == -3612 && b == -1236, L"Nagative values input failed", LINE_INFO());
+			Assert::IsTrue(a == -3612 && b == -1236, L"Negative values input failed", LINE_INFO());
 		}
 
 		TEST_METHOD(positiveValuesInput)

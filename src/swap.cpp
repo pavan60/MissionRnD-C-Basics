@@ -13,5 +13,11 @@ NOTES:
 
 void swap(int *a, int *b)
 {
-	
+	int temp;
+	/*temp = (*a)*(*b);
+	*a = temp / (*b);
+	*b = temp / (*a);*/
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
